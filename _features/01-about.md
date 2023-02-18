@@ -8,7 +8,16 @@ sidecontent: |
     <div class="item-center text-center">
         <img src="assets/media/pic/img_avatar.png" alt="Avatar" class="avatar square-300">
         <h1> Raden Harya Dananjaya </h1>
+        <h3> Instruktor </h3>
     </div>
 ---
-# About me 
-I am a Lecturer in Universitas Sebelas Maret, Indonesia. I graduated from Kyushu Unversity in Japan. My research interest is in computational geotechnics. I have developed knowledge and interest in geotechncis, earthquake engineering, disaster mitigation (such as landslide, slope failure), software development, numerical model, and computational mechanics.
+# Deskripsi Mata Kuliah 
+Mata kuliah ini bertujuan untuk mengenalkan aplikasi bahasa pemrograman dan software Slope/W untuk menyelesaikan permasalahan teknik sipil. Paruh semester awal mahasiswa akan belajar bahasa pemorgaman python dan aplikasinya di dunia keteknik sipilan. Ada beberapa bahasan yang akan dipelajari oleh mahasiswa pada paruh pertama, yaitu:
+- Penggunaan jupyter notebook
+- Perhitungan kapasitas dukung pondasi menggunakan Python
+- Perhitungan persebaran tegangan menggunakan Python
+- Perhitungan angka aman menggunakan Python
+
+Pada paruh kedua, mahasiswa akan belajar menggunakan Slope/w untuk menghitung stabilitas lereng. Beberapa bahasan yang akan dibahas adalah:
+- Dasar teori stabilitas lereng metode Fellenius, Bishop, Janbu, Morgenstern-Price, dll 
+- Penggunaan Slope/W untuk analisis stabilitas lereng

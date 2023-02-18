@@ -1,7 +1,7 @@
 ---
-id: Computer Skills
-name: Computer Skills
-heading: Computer Skills
+id: Logistik
+name: Logistik
+heading: Logistik
 subheading: 
 images:
 - "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"

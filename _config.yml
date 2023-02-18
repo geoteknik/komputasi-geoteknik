@@ -2,6 +2,10 @@ title: Portofolio
 description: A portofolio of Raden Harya Dananjaya
 sitename: Raden Harya Dananjaya
 baseurl: '/komputasi-geoteknik'
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 sass:
   sass_dir: /assets/_sass
   style: :compressed

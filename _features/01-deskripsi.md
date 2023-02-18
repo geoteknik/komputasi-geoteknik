@@ -1,13 +1,15 @@
 ---
-id: about
-name: About
-heading: About
+id: Deskripsi Mata Kuliah
+name: Deskripsi Mata Kuliah
+heading: Deskripsi Mata Kuliah
 subheading: 
 image: "http://placehold.it/500x500"
 sidecontent: |
     <div class="item-center text-center">
         <img src="assets/media/pic/img_avatar.png" alt="Avatar" class="avatar square-300">
-        <h1> Raden Harya Dananjaya </h1>
+
+        <a href="/dananjaya/"><h1> Raden Harya Dananjaya </h1></a>
+        
         <h3> Instruktor </h3>
     </div>
 ---

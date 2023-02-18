@@ -7,10 +7,8 @@ highlighter: rouge
 
 kramdown:
   input: GFM
+  auto_ids: true
   syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight' 
 sass:
   sass_dir: /assets/_sass
   style: :compressed

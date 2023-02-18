@@ -4,9 +4,13 @@ sitename: Raden Harya Dananjaya
 baseurl: '/komputasi-geoteknik'
 markdown: kramdown
 highlighter: rouge
+
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight' 
 sass:
   sass_dir: /assets/_sass
   style: :compressed

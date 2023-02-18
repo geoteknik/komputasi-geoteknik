@@ -22,12 +22,12 @@ modul matplotlib digunakan untuk menggambar grafik, numpy digunakan untuk menymp
 Untuk mengimport modul-modul di atas bisa digunakan kode-kode berikut ini:
 
 
-```python
+{% highlight python %}
 # Meng-import pustaka menggunakan dua cara
 import matplotlib.pyplot as plt
 import numpy as np
 import math
-```
+{% endhighlight python %}
 
 #### 2.4.1 Membuat titik-titik sampel
 **Cara pertama dan kedua**

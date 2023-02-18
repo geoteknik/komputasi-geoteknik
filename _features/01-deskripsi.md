@@ -1,6 +1,6 @@
 ---
 id: Deskripsi Mata Kuliah
-name: Deskripsi Mata Kuliah
+name: Deskripsi
 heading: Deskripsi Mata Kuliah
 subheading: 
 image: "http://placehold.it/500x500"

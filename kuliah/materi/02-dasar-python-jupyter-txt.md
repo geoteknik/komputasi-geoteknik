@@ -68,6 +68,8 @@ y4 = x4**2
 
 #### 2.4.2 Plotting grafik
 
+Plot kurva persamaan kuadrat menggunakan tiga titik sampel [x1, y1]
+
 
 ```python
 # Plotting grafik
@@ -78,10 +80,128 @@ ax.plot(x1, y1) # ploting data pada axis
 
 
 
-    [<matplotlib.lines.Line2D at 0x1c1137e0ac8>]
+    [<matplotlib.lines.Line2D at 0x1e0b8216d08>]
 
 
 
 
-![png](02-dasar-python-jupyter-txt_files/02-dasar-python-jupyter-txt_10_1.png)
+![png](02-dasar-python-jupyter-txt_files/02-dasar-python-jupyter-txt_11_1.png)
+
+
+Plot kurva persamaan kuadrat menggunakan seratus titik sampel [x4, y4]
+
+
+```python
+fig, ax = plt.subplots() # membuat objek gambar dan axis
+ax.plot(x4, y4) # ploting data pada axis
+```
+
+
+
+
+    [<matplotlib.lines.Line2D at 0x1e0b87c7048>]
+
+
+
+
+![png](02-dasar-python-jupyter-txt_files/02-dasar-python-jupyter-txt_13_1.png)
+
+
+Menggambar dua kurva dalam satu grafik
+
+
+```python
+fig, ax = plt.subplots() # membuat objek gambar dan axis
+ax.plot(x1, y1) # ploting 3 data pada axis
+ax.plot(x4, y4) # ploting 100 data pada axis
+```
+
+
+
+
+    [<matplotlib.lines.Line2D at 0x1e0b8876e48>]
+
+
+
+
+![png](02-dasar-python-jupyter-txt_files/02-dasar-python-jupyter-txt_15_1.png)
+
+
+### Memformat Grafik
+Menyamakan skala pada sumbu x dan y
+
+
+```python
+# Menjadikan skala sumbu x dan y sama
+## Cara 1
+fig1, ax1 = plt.subplots()
+ax1.plot(x2, y2)
+ax1.axis("scaled")
+
+## Cara 2
+fig2, ax2 = plt.subplots()
+ax2.plot(x2, y2)
+ax2.axis("square")
+```
+
+
+
+
+    (-0.1, 4.300000000000001, -0.2, 4.2)
+
+
+
+
+![png](02-dasar-python-jupyter-txt_files/02-dasar-python-jupyter-txt_17_1.png)
+
+
+
+![png](02-dasar-python-jupyter-txt_files/02-dasar-python-jupyter-txt_17_2.png)
+
+
+Merubah linestyle
+
+
+```python
+## Merubah style garis
+fig2, ax2 = plt.subplots()
+ax2.plot(x1, y1, 'o--r') # argumen ke 3 adalah marker line color, dengan:
+                         # o adalah dot, 
+                         # -- adalah putus-putus, 
+                         # r adalah red
+ax2.axis("scaled")
+ax2.axis([0,  4, 0, 4])
+```
+
+
+
+
+    [0, 4, 0, 4]
+
+
+
+
+![png](02-dasar-python-jupyter-txt_files/02-dasar-python-jupyter-txt_19_1.png)
+
+
+Merubah range axis
+
+
+```python
+## Merubah style garis
+fig2, ax2 = plt.subplots()
+ax2.plot(x1, y1, 'o--r')  
+ax2.axis("scaled")
+ax2.axis([0,  3, 0, 3]) # dengan format [xstart, xend, ystart, yend]
+```
+
+
+
+
+    [0, 3, 0, 3]
+
+
+
+
+![png](02-dasar-python-jupyter-txt_files/02-dasar-python-jupyter-txt_21_1.png)
 

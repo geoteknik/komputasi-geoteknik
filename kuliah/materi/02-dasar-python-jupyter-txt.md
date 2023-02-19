@@ -1,9 +1,9 @@
 ### 2.1. Instalasi program
-**Under construction**
+Coming soon
 ### 2.2. Dasar-Dasar Python
-**Under construction**
+Coming soon
 ### 2.3. Dasar-Dasar Jupyter Norebook
-**Under construction**
+Coming soon
 
 
 ### 2.4. Menggambar Grafik
@@ -11,7 +11,8 @@ Untuk membuat grafik, kita membutuhkan module *matplotlib*. Beberapa library yan
 - matplotlib
 - numpy
 - math
-modul matplotlib digunakan untuk menggambar grafik, numpy digunakan untuk menympan data, operasi matematika, dll., sedangkan math adalah modul bawaan python yang digunakan untuk operasi matematika.
+
+Modul matplotlib digunakan untuk menggambar grafik, numpy digunakan untuk menympan data, operasi matematika, dll., sedangkan math adalah modul bawaan python yang digunakan untuk operasi matematika.
 
 Untuk mengimport modul-modul di atas bisa digunakan kode-kode berikut ini:
 
@@ -24,7 +25,7 @@ import math
 ```
 
 #### 2.4.1 Membuat titik-titik sampel
-**Cara pertama dan kedua**
+Cara pertama dan kedua
 
 
 
@@ -43,7 +44,7 @@ for i in x2:
     y2.append(i**2) 
 ```
 
-**Cara ketiga**
+Cara ketiga
 
 
 
@@ -55,7 +56,7 @@ y3 = [i**2 for i in x3]
  
 ```
 
-**Cara keempat**
+Cara keempat
 
 
 ```python
